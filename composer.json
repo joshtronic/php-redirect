@@ -1,0 +1,23 @@
+{
+    "name":        "joshtronic/php-redirect",
+    "description": "Permanent (301) and temporary (302) redirection",
+    "version":     "1.0.0",
+    "type":        "library",
+    "keywords":    ["http", "response", "redirect", "forward", "permanment", "temporary", "301", "302"],
+    "homepage":    "https://github.com/joshtronic/php-redirect",
+    "license":     "MIT",
+    "authors": [{
+        "name":     "Josh Sherman",
+        "email":    "hello@joshtronic.com",
+        "homepage": "http://joshtronic.com"
+    }],
+    "require-dev": {
+        "php": ">=4.0.0"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"joshtronic\\": "src/"}
+    }
+}
