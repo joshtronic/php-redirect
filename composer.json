@@ -2,7 +2,7 @@
     "name":        "joshtronic/php-redirect",
     "description": "Permanent (301) and temporary (302) redirection",
     "version":     "1.0.0",
-    "type":        "library",
+    "type":        "utility",
     "keywords":    ["http", "response", "redirect", "forward", "permanment", "temporary", "301", "302"],
     "homepage":    "https://github.com/joshtronic/php-redirect",
     "license":     "MIT",
