@@ -20,7 +20,7 @@ class Redirect
     /**
      * @param  string $destination URL to redirect to
      */
-    public function __construct($url, $permanent = true)
+    public function __construct($destination, $permanent = true)
     {
         if (strpos($destination, '://') === false) {
             if (
