@@ -28,12 +28,12 @@ class Redirect
                 || $_SERVER['HTTPS'] == 'off'
                 || $_SERVER['HTTPS'] == ''
             ) {
-                $destination = 'http';
+                $protocol = 'http';
             } else {
-                $destination = 'https';
+                $protocol = 'https';
             }
 
-            $destination .= '://' . $_SERVER['HTTP_HOST'] . $destination;
+            $destination = $protocol . '://' . $_SERVER['HTTP_HOST'] . $destination;
         }
 
         if ($permanent) {
